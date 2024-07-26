@@ -1,13 +1,6 @@
 function Header({ score }) {
   // const [score, setScore] = useState(0)
 
-  function handleScore() {
-    // if the card clicked is not the same as the previous card
-    // reset the score
-    // else increase the score
-    score + 1
-  }
-
   return (
     <>
       <div className="header">
